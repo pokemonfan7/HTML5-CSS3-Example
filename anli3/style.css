@@ -1,0 +1,38 @@
+:root{
+    font-family:"宋体";
+    font-size:14px;
+    line-height:25px;
+}
+h1{
+    font-family:"微软雅黑";
+    font-size:26px;
+    color:#333;
+    font-weight:normal;
+    text-indent:1em;
+}
+h1:after{
+    content:url(images/tubiao.png);
+}
+ul:before{
+    content:url(images/renwu.png);
+}
+li>span{
+    color:red;
+}
+a>span{
+    color:blue;
+    font-weight:normal;
+}
+a:link,a:visited{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+h1:nth-of-type(odd){       /*奇数行*/
+    color:green;
+}
+h1:nth-of-type(even){      /*偶数行*/
+}

@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{text-decoration:none; color:#666;}
+body{
+    font-size:16px;
+    font-family:"宋体";
+    font-weight:bold;
+}
+.all{
+    width:318px;
+    height:320px;
+    padding:10px;
+    border:1px solid #000;
+    box-sizing:border-box;
+    margin:20px auto;
+}
+.p1{
+    font-size:20px;
+    height:20px;
+    display:inline-block;
+}
+.zs{
+    width:298px;
+    height:180px;
+    margin:0 auto;
+    background:url(pic.jpg) center center no-repeat;
+    overflow:hidden;
+    position:relative;
+}
+ ul{
+    width:100px;
+    height:16px;
+     position: absolute;
+     bottom:10px;
+     right:10px;
+}
+ul li{
+    width:16px;
+    height:16px;
+    box-sizing:border-box;
+    border:1px solid red;
+    line-height:10px;
+    text-align:center;
+    padding:2px 0;
+    margin-right:10px;
+    background:#fff;
+    float:left;
+}
+ul li:nth-child(1){
+    background:yellow;
+}
+ul li:nth-child(4){
+    margin-right:0;
+}
+.p2{
+    font-size:15px;
+    font-family:"microsoft Yahe";
+    margin:20px auto 5px;
+    color:#000;
+}
+.p3{
+    width:298px;
+    height:35px;
+    font-size:15px;
+    text-align:left;
+    margin:0 auto;
+    font-style:normal;
+    line-height:35px;
+}
+.p3 img{
+    float:right;
+}
+.p3 .cc2{
+    font-size:20px;
+    color:orange;
+}
